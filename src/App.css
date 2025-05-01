@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body .html {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-banner {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/053/368/967/non_2x/herbal-oils-and-flowers-on-a-blue-background-free-photo.jpeg"); /* path to your uploaded image */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  top: 0;
+}
+
+.hero-banner h1 {
+  font-size: 70px;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}

@@ -1,0 +1,75 @@
+.checkout-page {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.order-summary,
+.payment-method {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.order-summary {
+  flex: 1;
+  background-color: #e0f7e9;
+}
+
+.payment-method {
+  flex: 2;
+  background-color: #f8f8f8;
+}
+
+.summary-item {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.summary-item.total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.payment-option {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 8px 0;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.payment-option.selected {
+  background-color: #d0f0ff;
+  border-color: #007bff;
+}
+
+.billing-details {
+  margin-top: 20px;
+}
+
+.billing-details input,
+.billing-details textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.total-button {
+  margin-top: 20px;
+  padding: 14px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
